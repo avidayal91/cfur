@@ -1,11 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,700');
+
+/* Universal styles */
+
 body {
-  padding-top: 70px;
+  padding-top: 90px;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
 }
+
+h1 {
+    font-size: 2em;
+    color: white;
+    font-weight: 300;
+    text-align: right;
+    margin-top: 250px;
+}
+
+.bold {
+    color: red;
+    font-weight: 500;
+}
+
+/* Navbar styles */
 .navbar-fixed-top {
-height: 80px;
+height: 90px;
 }
-.navbar-brand{
+.navbar-brand {
     height: 80px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.navbar-inverse {
+    background-color: #000;
+}
+
+/*Hero image styles*/
+.bgimage {
+    background-image: url(../images/hero_image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+
+
