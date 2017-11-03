@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
 /* Global styles */
 
 body {
   padding-top: 90px;
   background-color: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
 }
 
@@ -78,7 +78,7 @@ height: 90px;
 }
 
 .our-mission {
-    margin-top: 160px;    
+    margin-top: 120px;    
 }
 
 /* help section*/
@@ -140,8 +140,12 @@ height: 90px;
     border-color: white;
     margin: 15px;
     border-radius: 0;
-
-
+}
+/*Footer*/
+.footer {
+        background-color: black;
+        color: white;
+    }
 
 
 
