@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,700');
 
-/* Universal styles */
+/* Global styles */
 
 body {
   padding-top: 90px;
   background-color: black;
   font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
 h1 {
@@ -15,6 +16,30 @@ h1 {
     text-align: right;
     margin-top: 250px;
 }
+
+h2 {
+    font-size: 2.5em;
+    color: red;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+h3{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+
+}
+
+p {
+    background-color: rgba(0,0,0, 0.5);
+    font-size: 1em;
+    font-weight: 300;
+}
+
+
 
 .bold {
     color: red;
@@ -43,5 +68,62 @@ height: 90px;
     height: 500px;
 }
 
+/*Our mission*/
+.mission {
+    background-image: url(../images/kid.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
 
+.our-mission {
+    margin-top: 160px;    
+}
+
+/* help section*/
+.help {
+    background-color: black;
+    height: 600px;
+}
+
+.outline {
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    height: auto;
+    
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Media queries*/
+@media screen and (max-width: 480px) and (min-width: 240px) {
+    p {
+        font-size: 0.9em;
+    }
+    .our-mission {
+        margin-top: 100px;
+    }
+    h1 {
+        margin-top: 200px;
+        font-size: 1.6em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+}
 
