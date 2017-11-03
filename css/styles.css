@@ -74,7 +74,7 @@ height: 90px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 650px;
+    height: 700px;
 }
 
 .our-mission {
@@ -84,7 +84,7 @@ height: 90px;
 /* help section*/
 .help {
     background-color: black;
-    height: 600px;
+    height: auto;
 }
 
 .outline {
@@ -144,9 +144,20 @@ height: 90px;
 /*Footer*/
 .footer {
         background-color: black;
-        color: white;
+        height: 150px;
+                
     }
+.footer-heading {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: 25px;
+}
 
+.connect {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
 
