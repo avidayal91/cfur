@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
-/* Global styles */
+/* --------------------Global styles---------------- */
 
 body {
   padding-top: 90px;
@@ -37,6 +37,7 @@ p {
     background-color: rgba(0,0,0, 0.5);
     font-size: 1em;
     font-weight: 300;
+    padding: 10px;
 }
 
 
@@ -46,54 +47,6 @@ p {
     font-weight: 500;
 }
 
-/* Navbar styles */
-.navbar-fixed-top {
-height: 90px;
-}
-.navbar-brand {
-    height: 80px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.navbar-inverse {
-    background-color: #000;
-}
-
-/*Hero image styles*/
-.bgimage {
-    background-image: url(../images/hero_image_dark.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-}
-
-/*Our mission*/
-.mission {
-    background-image: url(../images/kid.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 700px;
-}
-
-.our-mission {
-    margin-top: 120px;    
-}
-
-/* help section*/
-.help {
-    background-color: black;
-    height: auto;
-}
-
-.outline {
-    border-style: solid;
-    border-color: white;
-    border-width: thin;
-    height: auto;
-    
-}
 /* ----- button styles -------*/
 .btn-primary {
     color: red;
@@ -141,7 +94,83 @@ height: 90px;
     margin: 15px;
     border-radius: 0;
 }
-/*Footer*/
+
+
+/*---------------- Navbar styles--------------- */
+.navbar-fixed-top {
+height: 90px;
+}
+.navbar-brand {
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-inverse {
+    background-color: #000;
+}
+
+/*-------------Hero image styles--------------*/
+.bgimage {
+    background-image: url(../images/hero_image_dark.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+/*--------------Our mission---------------*/
+.mission {
+    background-image: url(../images/kid.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.our-mission {
+    margin-top: 120px;    
+}
+
+/*------------------ help section--------------------*/
+.help {
+    background-color: black;
+    height: auto;
+}
+
+.outline {
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    height: auto;
+    margin-bottom: 15px;
+    
+}
+/* ------------------- purnata ------------------------*/
+.purnata {
+    background-image: url(../images/boy.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;    
+}
+
+.purnata-logo {
+    margin-top: 200px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.purnata-text {
+    margin-top: 150px;
+}
+
+
+
+
+
+
+
+/*-------------------Footer----------------*/
 .footer {
         background-color: black;
         height: 150px;
@@ -171,17 +200,35 @@ height: 90px;
         font-size: 0.9em;
     }
     .our-mission {
-        margin-top: 100px;
+        margin-top: 10px;
     }
     h1 {
         margin-top: 200px;
         font-size: 1.6em;
     }
     h2 {
-        font-size: 2em;
+        font-size: 1.6em;
     }
     h3 {
-        font-size: 1.6em;
+        font-size: 1.4em;
+    }
+    .purnata-logo {
+        margin-top: 30px;
+    }
+    .purnata-text {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    .our-mission {
+        margin-top: 50px;
+    }
+    .purnata-logo {
+        margin-top: 50px;
+    }
+    .purnata-text {
+        margin-top: 20px;
     }
 }
 
