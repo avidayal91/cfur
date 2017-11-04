@@ -147,15 +147,15 @@ height: 90px;
 }
 /* ------------------- purnata ------------------------*/
 .purnata {
-    background-image: url(../images/boy.jpg);
-    background-position: center;
+    background-image: url(../images/purnata-bg.jpg);
+    background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;    
 }
 
 .purnata-logo {
-    margin-top: 200px;
+    margin-top: 150px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.5)
 }
@@ -164,7 +164,28 @@ height: 90px;
     margin-top: 150px;
 }
 
+/*--------------------Daudta Punjab-------------------*/
+.daudta {
+    background-image: url(../images/daudta_punjab-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
 
+.daudta-logo {
+    margin-top: 150px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.daudta-text {
+    margin-top: 150px;
+}
+
+.darker {
+    background-color: rgba(0,0,0, 0.65)
+}
 
 
 
@@ -218,6 +239,12 @@ height: 90px;
     .purnata-text {
         margin-top: 20px;
     }
+    .daudta-logo {
+        margin-top: 10px;
+    }
+    .daudta-text {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
@@ -229,6 +256,12 @@ height: 90px;
     }
     .purnata-text {
         margin-top: 20px;
+    }
+    .daudta-logo {
+        margin-top: 20px;
+    }
+    .daudta-text {
+        margin-top: 10px;
     }
 }
 
