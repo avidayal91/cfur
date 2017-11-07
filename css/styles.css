@@ -49,11 +49,16 @@ p {
 
 /* ----- button styles -------*/
 .btn-primary {
+    font-weight: 500;
+    font-size: 1.4em;
     color: red;
-    background-color: black;
+    background-color: transparent;
     border-color: white;
     margin: 15px;
     border-radius: 0;
+    border-width: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -62,6 +67,8 @@ p {
     border-color: white;
     margin: 15px;
     border-radius: 0;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .btn-primary:hover {
   color: red;
@@ -69,6 +76,8 @@ p {
     border-color: white;
     margin: 15px;
     border-radius: 0;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -78,6 +87,8 @@ p {
     border-color: white;
     margin: 15px;
     border-radius: 0;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -93,8 +104,13 @@ p {
     border-color: white;
     margin: 15px;
     border-radius: 0;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+.cta-button {
+    margin-top: 30px;
+}
 
 /*---------------- Navbar styles--------------- */
 .navbar-fixed-top {
